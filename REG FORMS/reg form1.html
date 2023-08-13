@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration forum</title>
+    <link rel="stylesheet" href=" regg.css">
+</head>
+<body style="background-color: black;" >
+    <h2>Student Registration Form</h2>
+    <table align="center" cellpadding="10">
+        <tr>
+            <td>First Name</td>
+            <td><input type="text" maxlength="50" placeholder="Enter your name"></td>
+        </tr>
+        <tr>
+            <td>LastName</td>
+            <td><input type="text" maxlength="50" placeholder="Enter your last name"></td>
+        </tr>
+        <tr>
+            <td>EMAIL ID</td>
+            <td><input type="email" name="email" id=""maxlength="100" placeholder="Example@gmail.com"></td>
+        </tr>
+        <tr>
+            <td>Mobile Number</td>
+            <td><input type="text" maxlength="11" placeholder="12345678901"></td>
+        </tr>
+        <tr>
+            <td>GENDE </td>
+            <td> Male <input type="radio" name="gender" id="">
+                F.male <input type="radio" name="gender" id=""></td>
+        </tr>
+        <tr>
+            <td>Date of Birth(DOB) </td>
+            <td>
+                <select name="DOB" id="">
+                    <option value="-1">Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                </select>
+                <select name="DOB month" id="">
+                    <option value="-1">MONTH</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                </select>
+                <select name="DOB month year" id="">
+                    <option value="-1">YEAR</option>
+                    <option value="1">2017</option>
+                    <option value="2">2018</option>
+                    <option value="3">2019</option>
+                    <option value="4">2020</option>
+                    <option value="5">2021</option>
+                    <option value="6">2022</option>
+                    <option value="7">2023</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>address<br><br><br></td>
+            <td><textarea name="address" id="" cols="50" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td>city</td>
+            <td><input type="text" name="city" maxlength="50" placeholder="ISLAMBAD"></td>
+        </tr>
+        <tr>
+            <td>Pin code</td>
+            <td><input type="number" maxlength="6" placeholder="123456"></td>
+        </tr>
+        <tr>
+            <td>State</td>
+            <td><input type="text" maxlength="50"placeholder="BLOSHISTAN"></td>
+        </tr>
+        <tr>
+            <td>COUNTRY</td>
+            <td><input type="text" maxlength="50"placeholder="COUNTRY"></td>
+        </tr>
+        <tr>
+            <td>HObbies <br><br><br></td>
+            <td>Drawing <input type="checkbox" name="" id="">
+            Singing<input type="checkbox" name="" id="">Dancing <input type="checkbox" name="" id=""><br>
+            Others <input type="checkbox" name="" id=""><input type="text">
+        </td>
+        </tr>
+        <tr>
+            <td>Qualification <br><br><br></td>
+            <td><input type="checkbox" name="" id="">High School 10<br>
+                <input type="checkbox" name="" id="">MASTER<br>
+                <input type="checkbox" name="" id="">PHD<br>
+            </td>
+        </tr>
+        <tr>
+            <td>course <br>Applied For</td>
+            <td><input type="radio" name="course" id="">BCA <br>
+            <input type="radio" name="" id="">B.COM <br>
+        </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
